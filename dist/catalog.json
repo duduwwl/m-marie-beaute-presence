@@ -85,7 +85,7 @@
       "name": "Necessaire Essencial",
       "category": "acessorios",
       "price": 49.9,
-      "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=85"
+      "image": "assets/blush.png"
     },
     {
       "id": "pincel-duo-face",
@@ -93,7 +93,7 @@
       "name": "Pincel Duo Face",
       "category": "acessorios",
       "price": 44.9,
-      "image": "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?auto=format&fit=crop&w=700&q=85"
+      "image": "assets/blush.png"
     },
     {
       "id": "esponja-soft-blend",
@@ -101,7 +101,7 @@
       "name": "Esponja Soft Blend",
       "category": "acessorios",
       "price": 39.9,
-      "image": "https://images.unsplash.com/photo-1625093742435-6fa192b6fb10?auto=format&fit=crop&w=700&q=85"
+      "image": "assets/blush.png"
     },
     {
       "id": "paleta-olhar-presente",
@@ -109,7 +109,7 @@
       "name": "Paleta Olhar Presente",
       "category": "maquiagem",
       "price": 119.9,
-      "image": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=700&q=85",
+      "image": "assets/blush.png",
       "tag": "M.Marie edit"
     },
     {
@@ -118,7 +118,7 @@
       "name": "Gloss Hidra Glow",
       "category": "maquiagem",
       "price": 49.9,
-      "image": "https://images.unsplash.com/photo-1600428877878-1a0f3e3c8f29?auto=format&fit=crop&w=700&q=85"
+      "image": "assets/blush.png"
     },
     {
       "id": "clarifying-phyto-serum",
@@ -126,7 +126,7 @@
       "name": "Clarifying Phyto Serum",
       "category": "skincare",
       "price": 94.9,
-      "image": "https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=700&q=85"
+      "image": "assets/blush.png"
     },
     {
       "id": "faixa-spa-ritual",
@@ -134,7 +134,7 @@
       "name": "Faixa Spa Ritual",
       "category": "acessorios",
       "price": 42.9,
-      "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=700&q=85"
+      "image": "assets/blush.png"
     },
     {
       "id": "iluminador-sol-a-sol",
@@ -142,7 +142,7 @@
       "name": "Iluminador Sol a Sol",
       "category": "maquiagem",
       "price": 74.9,
-      "image": "https://images.unsplash.com/photo-1590156221820-6b9e00b2f5c6?auto=format&fit=crop&w=700&q=85"
+      "image": "assets/blush.png"
     },
     {
       "id": "agua-micelar-calm",
@@ -150,7 +150,7 @@
       "name": "Água Micelar Calm",
       "category": "skincare",
       "price": 54.9,
-      "image": "https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=700&q=85"
+      "image": "assets/blush.png"
     },
     {
       "id": "contorno-cream-warm",
@@ -158,7 +158,7 @@
       "name": "Contorno Cream Warm",
       "category": "maquiagem",
       "price": 68.9,
-      "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=85"
+      "image": "assets/blush.png"
     },
     {
       "id": "oleo-de-amendoas",
@@ -166,7 +166,7 @@
       "name": "Óleo de Amêndoas",
       "category": "skincare",
       "price": 62.9,
-      "image": "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=700&q=85"
+      "image": "assets/blush.png"
     },
     {
       "id": "penteado-de-bolsa",
@@ -174,7 +174,7 @@
       "name": "Penteado de Bolsa",
       "category": "acessorios",
       "price": 35.9,
-      "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=85"
+      "image": "assets/blush.png"
     },
     {
       "id": "corretivo-alta-cobertura",
@@ -182,7 +182,7 @@
       "name": "Corretivo Alta Cobertura",
       "category": "maquiagem",
       "price": 64.9,
-      "image": "https://images.unsplash.com/photo-1631730359585-38a4935cbec4?auto=format&fit=crop&w=700&q=85"
+      "image": "assets/blush.png"
     },
     {
       "id": "hyaluronic-energy-serum",
@@ -190,7 +190,7 @@
       "name": "Hyaluronic Energy Serum",
       "category": "skincare",
       "price": 92.9,
-      "image": "https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=700&q=85"
+      "image": "assets/blush.png"
     },
     {
       "id": "balm-labial-rose",
@@ -198,7 +198,8 @@
       "name": "Balm Labial Rosé",
       "category": "maquiagem",
       "price": 46.9,
-      "image": "https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=700&q=85"
+      "image": "assets/blush.png"
     }
   ]
 }
+
