@@ -1,0 +1,204 @@
+{
+  "store": "M.Marie • Beauté & Présence",
+  "currency": "BRL",
+  "updated_at": "2026-10-08",
+  "products": [
+    {
+      "id": "boosting-energy-serum",
+      "brand": "Makiê Clinical",
+      "name": "Boosting Energy Serum",
+      "category": "skincare",
+      "price": 89.9,
+      "image": "/assets/serums.png",
+      "tag": "Favorito"
+    },
+    {
+      "id": "lip-color-velvet",
+      "brand": "Petrizi",
+      "name": "Lip Color Velvet",
+      "category": "maquiagem",
+      "price": 54.9,
+      "image": "/assets/petrizi-lips.png",
+      "tag": "Novo"
+    },
+    {
+      "id": "blush-3x1-cream",
+      "brand": "BT Beauty",
+      "name": "Blush 3x1 Cream",
+      "category": "maquiagem",
+      "price": 69.9,
+      "image": "/assets/blush.png"
+    },
+    {
+      "id": "blindagem-fixadora",
+      "brand": "Alice Salazar",
+      "name": "Blindagem Fixadora",
+      "category": "skincare",
+      "price": 72.9,
+      "image": "/assets/blindagem.png",
+      "tag": "Best-seller"
+    },
+    {
+      "id": "base-full-cover",
+      "brand": "LP Beauty",
+      "name": "Base Full Cover",
+      "category": "maquiagem",
+      "price": 79.9,
+      "image": "/assets/base.png"
+    },
+    {
+      "id": "bruma-fixadora",
+      "brand": "Alice Salazar",
+      "name": "Bruma Fixadora",
+      "category": "skincare",
+      "price": 64.9,
+      "image": "/assets/bruma.png"
+    },
+    {
+      "id": "hidratante-facial-calming",
+      "brand": "Petrizi",
+      "name": "Hidratante Facial Calming",
+      "category": "skincare",
+      "price": 84.9,
+      "image": "/assets/hidratante.png"
+    },
+    {
+      "id": "mascara-swimproof",
+      "brand": "Makiê Clinical",
+      "name": "Máscara Swimproof",
+      "category": "maquiagem",
+      "price": 59.9,
+      "image": "/assets/mascara-1.png",
+      "tag": "Essencial"
+    },
+    {
+      "id": "mascara-super-black",
+      "brand": "Makiê Clinical",
+      "name": "Máscara Super Black",
+      "category": "maquiagem",
+      "price": 59.9,
+      "image": "/assets/mascara-2.png"
+    },
+    {
+      "id": "necessaire-essencial",
+      "brand": "M.Marie",
+      "name": "Necessaire Essencial",
+      "category": "acessorios",
+      "price": 49.9,
+      "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=85"
+    },
+    {
+      "id": "pincel-duo-face",
+      "brand": "M.Marie",
+      "name": "Pincel Duo Face",
+      "category": "acessorios",
+      "price": 44.9,
+      "image": "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?auto=format&fit=crop&w=700&q=85"
+    },
+    {
+      "id": "esponja-soft-blend",
+      "brand": "M.Marie",
+      "name": "Esponja Soft Blend",
+      "category": "acessorios",
+      "price": 39.9,
+      "image": "https://images.unsplash.com/photo-1625093742435-6fa192b6fb10?auto=format&fit=crop&w=700&q=85"
+    },
+    {
+      "id": "paleta-olhar-presente",
+      "brand": "M.Marie",
+      "name": "Paleta Olhar Presente",
+      "category": "maquiagem",
+      "price": 119.9,
+      "image": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=700&q=85",
+      "tag": "M.Marie edit"
+    },
+    {
+      "id": "gloss-hidra-glow",
+      "brand": "Petrizi",
+      "name": "Gloss Hidra Glow",
+      "category": "maquiagem",
+      "price": 49.9,
+      "image": "https://images.unsplash.com/photo-1600428877878-1a0f3e3c8f29?auto=format&fit=crop&w=700&q=85"
+    },
+    {
+      "id": "clarifying-phyto-serum",
+      "brand": "Makiê Clinical",
+      "name": "Clarifying Phyto Serum",
+      "category": "skincare",
+      "price": 94.9,
+      "image": "https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=700&q=85"
+    },
+    {
+      "id": "faixa-spa-ritual",
+      "brand": "M.Marie",
+      "name": "Faixa Spa Ritual",
+      "category": "acessorios",
+      "price": 42.9,
+      "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=700&q=85"
+    },
+    {
+      "id": "iluminador-sol-a-sol",
+      "brand": "Petrizi",
+      "name": "Iluminador Sol a Sol",
+      "category": "maquiagem",
+      "price": 74.9,
+      "image": "https://images.unsplash.com/photo-1590156221820-6b9e00b2f5c6?auto=format&fit=crop&w=700&q=85"
+    },
+    {
+      "id": "agua-micelar-calm",
+      "brand": "M.Marie",
+      "name": "Água Micelar Calm",
+      "category": "skincare",
+      "price": 54.9,
+      "image": "https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=700&q=85"
+    },
+    {
+      "id": "contorno-cream-warm",
+      "brand": "BT Beauty",
+      "name": "Contorno Cream Warm",
+      "category": "maquiagem",
+      "price": 68.9,
+      "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=85"
+    },
+    {
+      "id": "oleo-de-amendoas",
+      "brand": "Alice Salazar",
+      "name": "Óleo de Amêndoas",
+      "category": "skincare",
+      "price": 62.9,
+      "image": "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?auto=format&fit=crop&w=700&q=85"
+    },
+    {
+      "id": "penteado-de-bolsa",
+      "brand": "M.Marie",
+      "name": "Penteado de Bolsa",
+      "category": "acessorios",
+      "price": 35.9,
+      "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=85"
+    },
+    {
+      "id": "corretivo-alta-cobertura",
+      "brand": "LP Beauty",
+      "name": "Corretivo Alta Cobertura",
+      "category": "maquiagem",
+      "price": 64.9,
+      "image": "https://images.unsplash.com/photo-1631730359585-38a4935cbec4?auto=format&fit=crop&w=700&q=85"
+    },
+    {
+      "id": "hyaluronic-energy-serum",
+      "brand": "Makiê Clinical",
+      "name": "Hyaluronic Energy Serum",
+      "category": "skincare",
+      "price": 92.9,
+      "image": "https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=700&q=85"
+    },
+    {
+      "id": "balm-labial-rose",
+      "brand": "Petrizi",
+      "name": "Balm Labial Rosé",
+      "category": "maquiagem",
+      "price": 46.9,
+      "image": "https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=700&q=85"
+    }
+  ]
+}

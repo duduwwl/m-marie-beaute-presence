@@ -1,0 +1,59 @@
+{
+  "merchant": {
+    "name": "M.Marie • Beauté & Présence",
+    "url": "https://m-marie-beaute-presence.duducraft11.chatgpt.site",
+    "locale": "pt-BR",
+    "country": "BR",
+    "currency": "BRL",
+    "address": "R. Dr. Francisco Sales, 411 — Centro, Lavras — MG, Brazil"
+  },
+  "protocol": {
+    "name": "UCP",
+    "versions": [
+      "2026-08-25",
+      "2026-04-08",
+      "2026-01-23"
+    ],
+    "latest": "2026-08-25"
+  },
+  "discovery": {
+    "agents": "/agents.md",
+    "catalog": "/catalog.json"
+  },
+  "capabilities": {
+    "catalog_read": true,
+    "search": true,
+    "cart": true,
+    "checkout": true,
+    "fulfillment": true,
+    "payment": true
+  },
+  "fulfillment": {
+    "pickup": {
+      "available": true,
+      "location": "R. Dr. Francisco Sales, 411 — Centro, Lavras — MG",
+      "eta": "Até 2 horas",
+      "fee": 0
+    },
+    "delivery": {
+      "available": true,
+      "area": "Lavras — MG",
+      "fee": "Calculada no checkout"
+    }
+  },
+  "payment_handlers": [
+    {
+      "type": "pix",
+      "buyer_approval_required": true
+    },
+    {
+      "type": "card",
+      "buyer_approval_required": true
+    }
+  ],
+  "agent_policy": {
+    "human_approval_required": true,
+    "card_data_handling": "forbidden",
+    "shop_skill": "https://shop.app/SKILL.md"
+  }
+}
