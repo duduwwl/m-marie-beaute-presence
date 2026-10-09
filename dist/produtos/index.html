@@ -323,6 +323,11 @@ body.products-page .catalog{background:#fff!important}
 body.products-page .product,body.products-page .product-image,body.products-page .product-image img{background:#fff!important}
 body.products-page .product-image{border:1px solid #eee7e2!important}
 @media(max-width:850px){body.products-page .catalog{padding-top:100px!important}}
+</style><style id="catalog-render-hardening">
+/* Keep catalog cards visible while motion observers initialize. */
+body.products-page .grid{opacity:1!important;visibility:visible!important}
+body.products-page .product{opacity:1!important;visibility:visible!important;filter:none!important;transform:none!important}
+body.products-page .product-image{background:#fff!important}
 </style></head>
 <body><div class="cursor-dot"></div><div class="cursor-ring"></div>
 <div class="announcement"><span>Frete grátis em Lavras a partir de R$ 199</span><span>•</span><span>Retire na loja em até 2h</span></div>
@@ -414,6 +419,13 @@ $('#checkout-form').onsubmit=e=>{e.preventDefault();$('#checkout-form').classLis
   window.addEventListener('hashchange',reobserveActive);
   window.addEventListener('popstate',reobserveActive);
 })();
+</script><script id="catalog-render-hardening-script">
+window.addEventListener('DOMContentLoaded',()=>{
+  document.body.classList.add('products-page');
+  const grid=document.getElementById('grid');
+  if(grid&&grid.children.length===0&&typeof render==='function')render();
+  document.querySelectorAll('.product').forEach(card=>card.classList.add('is-visible'));
+});
 </script></body></html>
 
 
