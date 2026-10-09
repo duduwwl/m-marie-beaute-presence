@@ -316,6 +316,23 @@ body:not(.products-page) .header .logo{width:150px;height:88px;object-fit:contai
   .filters{padding:16px!important;background:#fff;border:1px solid var(--line);box-shadow:0 8px 20px #27302e0c}
   .filter-toggle{margin-top:16px}
 }
+</style><style id="landing-final-review">
+/* Final responsive pass: full-bleed base tone and clean white product imagery */
+.editorial{width:100vw!important;max-width:none!important;margin-left:calc(50% - 50vw)!important;margin-right:calc(50% - 50vw)!important;background:#f2d8d4!important;padding-left:clamp(20px,5vw,80px)!important;padding-right:clamp(20px,5vw,80px)!important}
+.editorial:before{inset:0!important;background:#f2d8d4!important}
+.editorial .heading,.editorial .tiles{max-width:1160px;margin-left:auto;margin-right:auto}
+.editorial .tiles{background:#f2d8d4!important}
+.editorial .tile,.editorial .tile img{background:#fff!important}
+.editorial .tile img{display:block;image-rendering:auto}
+.editorial .tile:nth-child(2) img,.editorial .tile.blush img{background:#fff!important}
+@media(max-width:850px){
+  .editorial{padding-left:20px!important;padding-right:20px!important}
+  .editorial .heading,.editorial .tiles{max-width:600px}
+}
+@media(max-width:560px){
+  .editorial{padding-left:16px!important;padding-right:16px!important}
+  .hero-products-btn b,.hero-products-btn svg,.hero-products-btn::after{display:none!important;content:none!important}
+}
 </style></head>
 <body><div class="cursor-dot"></div><div class="cursor-ring"></div>
 <div class="announcement"><span>Frete grátis em Lavras a partir de R$ 199</span><span>•</span><span>Retire na loja em até 2h</span></div>
