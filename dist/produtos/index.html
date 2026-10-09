@@ -288,6 +288,34 @@ body:not(.products-page) .header .logo{width:150px;height:88px;object-fit:contai
   .checkout .form{grid-template-columns:1fr!important}
   .checkout .form .wide{grid-column:auto!important}
 }
+</style><style id="catalog-responsive-final">
+.hero-clean-copy{left:clamp(34px,4.5vw,76px)!important;max-width:350px!important}
+.hero-clean-copy h1{font-size:clamp(46px,5.6vw,72px)!important}
+.catalog{width:min(1160px,calc(100% - 72px));margin-inline:auto}
+.product-image{min-height:275px}
+@media(max-width:850px){
+  .hero-clean-copy{left:24px!important;right:auto!important;max-width:min(76vw,320px)!important;bottom:8vh!important}
+  .catalog{width:calc(100% - 40px)!important;padding:110px 0 70px!important}
+  .catalog-layout{grid-template-columns:1fr!important;gap:20px!important}
+  .filters{display:none}
+  .filters.open{display:block}
+  .filter-toggle,.mobile-filter{display:inline-flex!important}
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:24px 12px!important}
+  .product-image{min-height:0;aspect-ratio:1/1.08!important}
+}
+@media(max-width:560px){
+  .hero-clean-copy{left:18px!important;right:18px!important;max-width:calc(100% - 36px)!important;bottom:30px!important}
+  .hero-clean-copy h1{font-size:clamp(42px,13vw,64px)!important}
+  .catalog{width:calc(100% - 32px)!important;padding:98px 0 52px!important}
+  .catalog-top{display:block!important;margin-bottom:28px!important}
+  .catalog h1{font-size:clamp(45px,14vw,68px)!important}
+  .grid{grid-template-columns:1fr!important;gap:26px!important}
+  .product-image{aspect-ratio:1/1.05!important}
+  .product-image img{padding:18px!important}
+  .info h3{font-size:20px!important}
+  .filters{padding:16px!important;background:#fff;border:1px solid var(--line);box-shadow:0 8px 20px #27302e0c}
+  .filter-toggle{margin-top:16px}
+}
 </style></head>
 <body><div class="cursor-dot"></div><div class="cursor-ring"></div>
 <div class="announcement"><span>Frete grátis em Lavras a partir de R$ 199</span><span>•</span><span>Retire na loja em até 2h</span></div>
@@ -309,8 +337,7 @@ cuidado que faz sentido na vida real.</p></div><div class="tiles"><a class="tile
 <script>
 const products=[{id:1,b:'Makiê Clinical',n:'Boosting Energy Serum',c:'skincare',p:89.9,i:'../assets/serums.png',f:'../assets/serums.png',t:'Favorito'},{id:2,b:'Petrizi',n:'Lip Color Velvet',c:'maquiagem',p:54.9,i:'../assets/petrizi-lips.png',f:'../assets/petrizi-lips.png',t:'Novo'},{id:3,b:'BT Beauty',n:'Blush 3x1 Cream',c:'maquiagem',p:69.9,i:'../assets/blush-hq.png',f:'../assets/blush-hq.png'},{id:4,b:'Alice Salazar',n:'Blindagem Fixadora',c:'skincare',p:72.9,i:'../assets/blindagem.png',f:'../assets/blindagem.png',t:'Best-seller'},{id:5,b:'LP Beauty',n:'Base Full Cover',c:'maquiagem',p:79.9,i:'../assets/base.png',f:'../assets/base.png'},{id:6,b:'Alice Salazar',n:'Bruma Fixadora',c:'skincare',p:64.9,i:'../assets/bruma.png',f:'../assets/bruma.png'},{id:7,b:'Petrizi',n:'Hidratante Facial Calming',c:'skincare',p:84.9,i:'../assets/hidratante-hq.png',f:'../assets/blush-hq.png'},{id:8,b:'Makiê Clinical',n:'Máscara Swimproof',c:'maquiagem',p:59.9,i:'../assets/mascara-1.png',f:'../assets/mascara-1.png',t:'Essencial'},{id:9,b:'Makiê Clinical',n:'Máscara Super Black',c:'maquiagem',p:59.9,i:'../assets/mascara-2.png',f:'../assets/mascara-2.png'},{id:10,b:'M.Marie',n:'Necessaire Essencial',c:'acessorios',p:49.9,i:'../assets/blush-hq.png'},{id:11,b:'M.Marie',n:'Pincel Duo Face',c:'acessorios',p:44.9,i:'../assets/mascara-1.png'},{id:12,b:'M.Marie',n:'Esponja Soft Blend',c:'acessorios',p:39.9,i:'../assets/petrizi-lips.png'},{id:13,b:'M.Marie',n:'Paleta Olhar Presente',c:'maquiagem',p:119.9,i:'../assets/mascara-1.png',t:'M.Marie edit'},{id:14,b:'Petrizi',n:'Gloss Hidra Glow',c:'maquiagem',p:49.9,i:'../assets/petrizi-lips.png'},{id:15,b:'Makiê Clinical',n:'Clarifying Phyto Serum',c:'skincare',p:94.9,i:'../assets/blindagem.png'},{id:16,b:'M.Marie',n:'Faixa Spa M.Marie',c:'acessorios',p:42.9,i:'../assets/serums.png'},{id:17,b:'Petrizi',n:'Iluminador Sol a Sol',c:'maquiagem',p:74.9,i:'../assets/blush-hq.png'},{id:18,b:'M.Marie',n:'Água Micelar Calm',c:'skincare',p:54.9,i:'../assets/serums.png'},{id:19,b:'BT Beauty',n:'Contorno Cream Warm',c:'maquiagem',p:68.9,i:'../assets/blush-hq.png'},{id:20,b:'Alice Salazar',n:'Óleo de Amêndoas',c:'skincare',p:62.9,i:'../assets/blindagem.png'},{id:21,b:'M.Marie',n:'Penteado de Bolsa',c:'acessorios',p:35.9,i:'../assets/blush-hq.png'},{id:22,b:'LP Beauty',n:'Corretivo Alta Cobertura',c:'maquiagem',p:64.9,i:'../assets/base.png'},{id:23,b:'Makiê Clinical',n:'Hyaluronic Energy Serum',c:'skincare',p:92.9,i:'../assets/blindagem.png'},{id:24,b:'Petrizi',n:'Balm Labial Rosé',c:'maquiagem',p:46.9,i:'../assets/petrizi-lips.png'}];
 const money=n=>n.toLocaleString('pt-BR',{style:'currency',currency:'BRL'});let cat='all',max=220,cart=JSON.parse(localStorage.getItem('mmarie-cart')||'[]');const $=s=>document.querySelector(s);function fallback(img){if(img.dataset.fallback&&!img.dataset.used){img.dataset.used=1;img.src=img.dataset.fallback}}
-function render(){let a=produc
-ts.filter(p=>(cat==='all'||p.c===cat)&&p.p<=max),s=$('#sort').value;if(s==='low')a.sort((x,y)=>x.p-y.p);if(s==='high')a.sort((x,y)=>y.p-x.p);if(s==='name')a.sort((x,y)=>x.n.localeCompare(y.n));$('#results').textContent=a.length+' produtos';$('#grid').innerHTML=a.map(p=>'<article class="product"><div class="product-image">'+(p.t?'<span class="tag">'+p.t+'</span>':'')+'<img src="'+p.i+'" '+(p.f?'data-fallback="'+p.f+'"':'')+' alt="'+p.n+'"><button class="add" data-add="'+p.id+'">+</button></div><div class="info"><small>'+p.b+'</small><h3>'+p.n+'</h3><div class="meta"><span>'+money(p.p)+'</span><small>ou 3x sem juros</small></div></div></article>').join('');document.querySelectorAll('img[data-fallback]').forEach(i=>i.addEventListener('error',()=>fallback(i)));document.querySelectorAll('[data-add]').forEach(b=>b.onclick=()=>add(+b.dataset.add))}
+function render(){let a=products.filter(p=>(cat==='all'||p.c===cat)&&p.p<=max),s=$('#sort').value;if(s==='low')a.sort((x,y)=>x.p-y.p);if(s==='high')a.sort((x,y)=>y.p-x.p);if(s==='name')a.sort((x,y)=>x.n.localeCompare(y.n));$('#results').textContent=a.length+' produtos';$('#grid').innerHTML=a.map(p=>'<article class="product"><div class="product-image">'+(p.t?'<span class="tag">'+p.t+'</span>':'')+'<img src="'+p.i+'" '+(p.f?'data-fallback="'+p.f+'"':'')+' alt="'+p.n+'"><button class="add" data-add="'+p.id+'">+</button></div><div class="info"><small>'+p.b+'</small><h3>'+p.n+'</h3><div class="meta"><span>'+money(p.p)+'</span><small>ou 3x sem juros</small></div></div></article>').join('');document.querySelectorAll('img[data-fallback]').forEach(i=>i.addEventListener('error',()=>fallback(i)));document.querySelectorAll('[data-add]').forEach(b=>b.onclick=()=>add(+b.dataset.add))}
 function add(id){let x=cart.find(i=>i.id===id);x?x.q++:cart.push({id:id,q:1});save();toast(products.find(p=>p.id===id).n+' adicionado à sua sacola')}
 function save(){localStorage.setItem('mmarie-cart',JSON.stringify(cart));renderCart()}function renderCart(){let n=cart.reduce((a,x)=>a+x.q,0),sum=cart.reduce((a,x)=>a+products.find(p=>p.id===x.id).p*x.q,0);$('#count').textContent=n;$('#drawer-count').textContent=n;$('#subtotal').textContent=money(sum);$('#total').textContent=money(sum);$('#empty').classList.toggle('hidden',n>0);$('#summary').classList.toggle('hidden',!n);$('#cart-lines').innerHTML=cart.map(x=>{let p=products.find(y=>y.id===x.id);return '<div class="cart-line"><img src="'+p.i+'" '+(p.f?'data-fallback="'+p.f+'"':'')+' alt="'+p.n+'"><div><small>'+p.b+'</small><strong>'+p.n+'</strong><span>'+x.q+' × '+money(p.p)+'</span></div><button data-remove="'+p.id+'">×</button></div>'}).join('');document.querySelectorAll('#cart-lines img[data-fallback]').forEach(i=>i.addEventListener('error',()=>fallback(i)));document.querySelectorAll('[data-remove]').forEach(b=>b.onclick=()=>{cart=cart.filter(x=>x.id!==+b.dataset.remove);save()})}
 function toast(t){$('#toast').textContent=t;$('#toast').classList.add('show');setTimeout(()=>$('#toast').classList.remove('show'),2200)}function open(id){$(id).classList.add('open');document.body.style.overflow='hidden'}function close(id){$(id).classList.remove('open');document.body.style.overflow=''}function route(r,sync=true){document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));let id={home:'home',catalog:'catalog',experience:'experience',presence:'home'}[r]||'home';$('#'+id).classList.add('active');document.querySelectorAll('[data-route]').forEach(a=>a.classList.toggle('active',a.dataset.route===r));let target={home:'#home',catalog:'#catalog',experience:'#experience',presence:'#presenca'}[r]||'#home';if(sync&&location.hash!==target)history.pushState({},'',target);if(r==='presence')setTimeout(()=>$('#presenca').scrollIntoView({behavior:'auto'}),30);else scrollTo({top:0,behavior:'auto'})}
