@@ -328,6 +328,25 @@ body.products-page .product-image{border:1px solid #eee7e2!important}
 body.products-page .grid{opacity:1!important;visibility:visible!important}
 body.products-page .product{opacity:1!important;visibility:visible!important;filter:none!important;transform:none!important}
 body.products-page .product-image{background:#fff!important}
+</style><style id="catalog-mobile-final">
+/* Final catalog layout: always visible and two columns on small screens. */
+body.products-page #catalog{display:block!important;visibility:visible!important;opacity:1!important}
+body.products-page #grid{display:grid!important;visibility:visible!important;opacity:1!important}
+body.products-page #grid .product{display:block!important;visibility:visible!important;opacity:1!important;filter:none!important;transform:none!important}
+body.products-page #grid .product-image{background:#fff!important}
+@media(max-width:850px){
+  body.products-page #grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:24px 12px!important}
+  body.products-page #grid .product-image{height:auto!important;min-height:0!important;aspect-ratio:1/1.08!important}
+}
+@media(max-width:560px){
+  body.products-page .catalog{width:calc(100% - 28px)!important;padding:94px 0 48px!important}
+  body.products-page #grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:20px 9px!important}
+  body.products-page #grid .product-image{aspect-ratio:1/1.05!important}
+  body.products-page #grid .product-image img{padding:6px!important}
+  body.products-page #grid .info h3{font-size:15px!important;line-height:1.1!important}
+  body.products-page #grid .meta{display:block!important}
+  body.products-page #grid .meta small{display:block!important;margin-top:4px!important}
+}
 </style></head>
 <body><div class="cursor-dot"></div><div class="cursor-ring"></div>
 <div class="announcement"><span>Frete grátis em Lavras a partir de R$ 199</span><span>•</span><span>Retire na loja em até 2h</span></div>
@@ -425,6 +444,17 @@ window.addEventListener('DOMContentLoaded',()=>{
   const grid=document.getElementById('grid');
   if(grid&&grid.children.length===0&&typeof render==='function')render();
   document.querySelectorAll('.product').forEach(card=>card.classList.add('is-visible'));
+});
+</script><script id="catalog-mobile-final-script">
+window.addEventListener('load',()=>{
+  document.body.classList.add('products-page');
+  const grid=document.getElementById('grid');
+  if(grid&&grid.children.length===0&&typeof render==='function')render();
+  document.querySelectorAll('#grid .product').forEach(card=>{
+    card.classList.add('is-visible');
+    card.style.opacity='1';
+    card.style.visibility='visible';
+  });
 });
 </script></body></html>
 
